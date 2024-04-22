@@ -4,6 +4,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [create-next-
 
 I have implemented a minimalist version of the tile-matching game to create a simple play. In this game, you have 30 seconds to match pairs of the same tiles in a 4x4 grid. That's it. Those are the rules. 
 
+![image](https://github.com/vitthal-bhandari/minimalistic-tile-matching-game/assets/51982356/720852e6-a770-43a5-b939-e922724eec11)
+
+
 ## Scoring rules
 
 You get 100 points for each pair correctly matched. If finished before timeout, you get 100x points for the remaining seconds. For example, if you finished 10 seconds early, your score would be 800 (for matching all 8 pairs correctly) + 100x10 (for the 10 seconds remaining) = 1800.
